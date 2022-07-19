@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #CEECF5;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #01DF3A;
+}
+
+.stage {
+  position: relative;
+  top: 70px
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: #A9F5A9;
+  border: 2px solid #01DF3A;
+  display: inline-block;
+}
+
+.o {
+  position: relative;
+}
+
+.o:after {
+  position: absolute;
+  content: "\1F3F9";
+  font-size: 60px;
+  line-height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.x {
+  position: relative;
+}
+
+.x:after {
+  position: absolute;
+  content: "\2694";
+  font-size: 80px;
+  line-height: 150px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
